@@ -1,0 +1,130 @@
+*{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px
+	color:white;
+}
+
+ul {         
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align:right;
+}
+ 
+ p{
+	line-height: 30px;
+ }
+
+li {
+    float:right;
+    border-right:solid 1px #777777;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+ h2{
+	color: #33cccc;
+ }
+
+.logo {
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 25px;
+    position: relative;
+    left: 150px;
+    top: 10px;
+    background-color: #33cccc;
+    padding: 30px 40px 40px 40px;
+    margin: 0 auto;
+    float: left;
+}
+
+#image{
+	float:left;
+	width: 200px;
+	padding-right: 30px;
+	padding:left: 20px;
+}
+ 
+.topnav {
+	width: 960px;
+    margin:0px auto;
+    padding: 30px 60px 60px 60px;
+    border-bottom: 1px solid black;
+    background-color: white;
+}
+ 
+.container{
+	width: 500px;
+	margin: 60px 100px 100px 150px;
+	float:left;
+	background-color:white;
+	color: #777777;
+	/*border: 1px solid #777777;*/
+	padding: 5px 20px 10px 10px;
+}
+
+.sidebar{
+	margin-top: 60px;
+	float: left;
+	background-color: white;
+	padding: 20px 20px 20px 20px;
+}
+
+.footer{
+	font-size:10px;
+	clear:both;
+	text-align: center;
+	padding:20px;
+	background-color: #666666;
+	border-top: 8px solid #33cccc;
+	max-height: 18px;
+}
+
+#submit{
+	background-color: #33cccc;
+	color:white;
+
+}
+
+#contact{
+	height: 50px;
+}
+/* Could not figure out how to use background-image: url('assets/images/whirpool.png');*/
+body{
+	background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/bedge_grunge.png');
+}
+
+@-ms-viewport{
+  width: device-width;
+}
+
+@media screen and (max-width: 980px){
+
+}
+
+@media screen and (max-width: 768px){
+	.container{
+		width:200px;
+	}
+	.sidebar{
+
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.topnav{
+		width: 100px;
+	}
+	.image{
+		position:static;
+	}
+	h2{
+		position:static;
+	}
+	.container{
+		width:100px;
+
+	}
+}
